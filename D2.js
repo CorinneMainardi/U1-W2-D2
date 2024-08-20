@@ -176,11 +176,18 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.city = "Toronto";
+
+console.log(me);
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+delete me.lastName;
+console.log(me);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
@@ -188,14 +195,33 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.skills.pop();
+console.log(me);
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+array1 = [];
+array1.push(1);
+array1.push(2);
+array1.push(3);
+array1.push(4);
+array1.push(5);
+array1.push(6);
+array1.push(7);
+array1.push(8);
+array1.push(9);
+array1.push(10);
+
+console.log(array1);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+array1.splice(9, 1, 100);
+console.log(array1);
