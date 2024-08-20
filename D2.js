@@ -67,9 +67,9 @@ let totale = 50;
 if (totalShoppingCart > totale) {
   console.log(" il totale del tuo carrello è euro " + totalShoppingCart + " hai raggiunto la spesa minima richiesta di euro 50. la tua spedizine è gratuita");
 } else {
-  console.log(
-    " il totale del tuo carrello è euro " + totalShoppingCart + " non hai raggiunto la spesa minima richiesta di euro 50. la tua spedizine è di euro 10"
-  );
+  let spedizione = 10;
+  let totaleP = totalShoppingCart + spedizione;
+  console.log(" il totale del tuo carrello è euro " + totaleP + " non hai raggiunto la spesa minima richiesta di euro 50. la tua spedizine è di euro 10");
 }
 
 /* ESERCIZIO 6
